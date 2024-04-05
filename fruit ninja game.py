@@ -22,10 +22,10 @@ RED = (255,0,0)
 GREEN = (0,255,0)
 BLUE = (0,0,255)
 
-background = pygame.image.load("C:/Users/LENOVO/OneDrive/Desktop/vs_coding/Python/images/outer.jpg")                                  #game background
-font = pygame.font.Font(os.path.join(os.getcwd(), "C:/Users/LENOVO/OneDrive/Desktop/vs_coding/Python/images/comic.ttf"), 42)
+background = pygame.image.load("C:/Users/LENOVO/Desktop/Uploaded projects/Python Projects/projects/images/outer.jpg")                                  #game background
+font = pygame.font.Font(os.path.join(os.getcwd(), "C:/Users/LENOVO/Desktop/Uploaded projects/Python Projects/projects/images/comic.ttf"), 42)
 score_text = font.render('Score : ' + str(score), True, (255, 255, 255))    #score display
-lives_icon = pygame.image.load('images/white_lives.png')                    #images that shows remaining lives
+lives_icon = pygame.image.load('C:/Users/LENOVO/Desktop/Uploaded projects/Python Projects/projects/images/white_lives.png')                    #images that shows remaining lives
 
 # Generalized structure of the fruit Dictionary
 def generate_random_fruits(fruit):
@@ -55,7 +55,7 @@ def hide_cross_lives(x, y):
     gameDisplay.blit(pygame.image.load("images/red_lives.png"), (x, y))
 
 # Generic method to draw fonts on the screen
-font_name = pygame.font.match_font("C:/Users/LENOVO/OneDrive/Desktop/vs_coding/Python/images/comic.ttf")
+font_name = pygame.font.match_font("C:/Users/LENOVO/Desktop/Uploaded projects/Python Projects/projects/images/comic.ttf")
 def draw_text(display, text, size, x, y):
     font = pygame.font.Font(font_name, size)
     text_surface = font.render(text, True, WHITE)
