@@ -2,7 +2,7 @@
 
 This repo contains all the Entry - Level Python Projects for the beginners.
 
-+ _folders_ contains images used in **Hangman** game , **Flappy Bird** game , **Solar system** and **fruit ninja** game.
++ _folders_ contains images used in **Hangman** game , **Flappy Bird** game , **Solar System** and **Fruit Ninja** game.
   
 + _bw_image.jpg_ is get converted into _colorized_image.jpg_ when we run the **black to colour image** program.
   
